@@ -8,7 +8,7 @@ class User():
 
     def __init__(self, email):
         """ Documentation """
-        self.__email = None
+        self.__email = email
 
 
     @property
