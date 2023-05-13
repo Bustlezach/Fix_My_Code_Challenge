@@ -2,7 +2,6 @@
 
 """
 I love geometry!
-
 Look my square, it’s perfect? No? Should I change something?
 """
 
@@ -53,13 +52,11 @@ class Square():
 
     def area_of_my_square(self):
         """Area of square"""
-		sq = self.__width * self.__height
-        return sq
+        return self.__width * self.__height
 
     def permiter_of_my_square(self):
         """Perimeter of square"""
-		perimeter = 2 * (self.__width + self.__height)
-        return perimeter
+        return (self.__width + self.__height) * 2
 
     def __str__(self):
         """String representation of the class square"""
